@@ -560,6 +560,13 @@ select.chip {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: 0.6s;
+}
+
+.team-list-container .card:hover {
+  color: white;
+  background-color: #a8cbec;
+  transition: 0.6s;
 }
 
 .team-list-container .team-card-container {

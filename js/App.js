@@ -1,3 +1,4 @@
+import {TeamList} from "./TeamList.js"
 function App() {
   const $todoApps = document.querySelector('.todoapp-list-container')
   $todoApps.addEventListener('click', e => {
@@ -16,4 +17,6 @@ function App() {
   })
 }
 
-new App()
+//ew App()
+
+new TeamList();
